@@ -1,15 +1,12 @@
 package com.example.database1;
 
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.RatingBar;
 
 class ViewHolder {
-    ImageView icon = null;
+    RatingBar rate = null;
 
     ViewHolder(View base) {
-        this.icon = (ImageView) base.findViewById(R.id.icon);
+        this.rate = (RatingBar) base.findViewById(R.id.rate);
     }
-
-
-
 }
